@@ -1,0 +1,107 @@
+/** barra de navegacion**/
+.barra {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: gray;
+}
+
+
+
+/** TITULO**/
+
+.body,h1 {
+  font-size: 90px;
+  text-align: center;
+  color:white;
+  margin-top: 5px;
+  padding: 30px;
+  background-color:black;
+}
+
+
+/** SOBRE MI**/
+
+.container {
+  background-color:#333;
+  color: white;
+  border: black;
+  margin: 10px;
+  padding: 0px,2px,2px,2px;
+  text-align: justify;
+  text-indent: 3em;
+}
+
+.row {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+
+.caja4 {
+  background-color: #333;
+  color: white;
+  border: black;
+  margin: 10px;
+  padding: 0px,2px,180px,2px;
+ 
+}
+
+
+.caja2,h3 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 5px;
+
+  
+}
+
+.caja1 {
+  background-color: #333;
+  color: white;
+  border: black;;
+  margin: 10px;
+  padding: 0px,2px,180px,2px;
+  text-align: center;
+}
+
+
+
+  /**imagen**/
+.foto {
+  text-align: right;
+}
+
+
+
+  /**pie**/
+  footer { 
+    text-align: center;
+  }
